@@ -1,9 +1,7 @@
 const reverseString = function(string) {
-    var reverserString = "";
-    for(var i = string.length -1; i >= 0; i--){
-        reverserString += string[i];
-    }
-    return reverserString;
+    if(str === "") return"";
+
+    else return reverseString(string.substr(1) + str.charAt(0));
 };
 
 // Do not edit below this line
